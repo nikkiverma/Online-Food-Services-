@@ -1,0 +1,15 @@
+#navbar{
+    flex-direction: column;
+}
+#services{
+
+flex-direction: column;
+}
+.food-container{
+    flex-direction: column;
+    
+}
+.food{
+    flex-direction: column;
+
+}
