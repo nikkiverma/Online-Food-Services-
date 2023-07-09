@@ -1,0 +1,238 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: url(img/background3.jpg) no-repeat center center/cover;
+    font-family: Arial, sans-serif;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100px;
+
+}
+
+/* navigation bav */
+#navbar img {
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    padding: 10px;
+}
+
+#navbar {
+    display: flex;
+
+    align-items: center;
+    position: sticky;
+
+    top: 0px;
+    height: 50px;
+}
+
+
+#navbar ul {
+    display: flex;
+
+
+
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a {
+    padding: 0px 15px;
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+    display: block;
+}
+
+#navbar li a:hover {
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+
+}
+
+/* right nav bar */
+.right {
+
+    position: absolute;
+    right: 50px;
+    top: 30px;
+
+}
+
+.right a {
+    padding: 0px 15px;
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+    display: inline;
+    top: 0px;
+}
+
+.right a:hover {
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+}
+
+/* home page */
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+
+    height: 420px;
+}
+
+#home h1 {
+    text-align: center;
+    color: white;
+    font-size: 38px;
+    padding: 10px;
+}
+
+#home p {
+    font-size: 15px;
+    color: white;
+
+}
+
+#home a {
+
+    text-decoration: none;
+    color: white;
+}
+
+#btn {
+    padding: 6px 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 17px 17px;
+    cursor: pointer;
+
+}
+
+#home a:hover {
+    border: 3px solid black;
+    background-color: rgb(117, 117, 228);
+
+}
+
+/* Services Section */
+
+#services {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.box img {
+    height: 70px;
+    width: 70px;
+
+
+}
+
+.box {
+    font-family: 'Edu QLD Beginner', cursive;
+    border-radius: 13px;
+    margin: 25px 10px;
+    padding: 20px;
+    border: 3px solid brown;
+    background-color: rgb(212, 211, 211);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(10, 10, 10);
+}
+
+/* client section */
+.client-box {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.client-box img {
+    flex-direction: row;
+    height: 50px;
+    width: 50px;
+    padding: 34px;
+}
+
+.client {
+    margin: 10px;
+    background: url(img/fruit.jpg);
+}
+
+/* contact section */
+#contact {
+    background: url(img/contact\ background\ .jpg) no-repeat center center/cover;
+    height: 500px;
+}
+
+#contact-box input,
+#contact-box textarea {
+    margin: 5px;
+    border-radius: 5px;
+    border: 3px solid black;
+    width: 400px;
+    height: 20px;
+}
+
+#contact-box {
+    display: flex;
+
+    justify-content: center;
+
+}
+
+
+#submit:hover {
+    background-color: rgb(166, 166, 250);
+}
+
+/* footer */
+#footer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+/* food item section */
+.food {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.food img {
+    margin: 10px;
+    margin-top: 100px;
+    width: 250px;
+    height: 250px;
+}
+
+.head {
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.food .item:hover {
+    cursor: pointer;
+    box-shadow: 3px 3px 3px 3px;
+}
